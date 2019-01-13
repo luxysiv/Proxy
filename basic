@@ -1,5 +1,10 @@
 [SERVER]
 
+[SOURCE]
+Cơ Bản, filter, https://raw.githubusercontent.com/luxysiv/chanqc/master/basic, false
+Nâng cao, blacklist, https://raw.githubusercontent.com/luxysiv/chanqc/master/advanced, true
+Trong tên miền FB, blacklist, https://raw.githubusercontent.com/luxysiv/chanqc/master/advanced-F, true
+
 [Rule]
 DOMAIN-KEYWORD,adthor.com,REJECT
 DOMAIN-KEYWORD,zcoup.com,REJECT
