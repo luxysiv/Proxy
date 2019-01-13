@@ -6,6 +6,7 @@ ADVANCED , blacklist, https://raw.githubusercontent.com/luxysiv/chanqc/master/ad
 ADVANCED-F , blacklist, https://raw.githubusercontent.com/luxysiv/chanqc/master/advanced-F, true
 
 [Rule]
+DOMAIN-KEYWORD,eclick.vn,REJECT
 DOMAIN-KEYWORD,adthor.com,REJECT
 DOMAIN-KEYWORD,zcoup.com,REJECT
 DOMAIN-KEYWORD,org.zaloapp.ads.zdn.vn,REJECT
