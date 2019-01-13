@@ -1,0 +1,12 @@
+[URL-REJECTION]
+//FB FAIL
+
+^https://graph.facebook.com/network_ads_common/*
+^https?://graph.facebook.com/v2.*/*/activities
+^https?://graph.facebook.com/v3.*/*/activities
+^https?://graph.facebook.com/v2.*/*?advertiser_id=*
+^https?://graph.facebook.com/v3.*/*?advertiser_id=*
+^https?://www.facebook.com/adnw_logging/*
+
+[MITM]
+hostname = graph.facebook.com
