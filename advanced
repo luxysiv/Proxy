@@ -28,7 +28,7 @@
 
 
 //NCT
-^http:\/\/graph\.nhaccuatui\.com\/v4\/users\/3g-get-info\?access_token=&number=$
+^http:\/\/graph\.nhaccuatui\.com\/v4\/users\/3g-get-info
 ^https?://graph.nhaccuatui.com/v4/logs/*
 ^https://graph.nhaccuatui.com/v4/commons/notify-firebase
 ^https://graph.nhaccuatui.com/v4/users/3g-info
