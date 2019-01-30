@@ -28,11 +28,11 @@
 
 
 //NCT
-^http:\/\/graph\.nhaccuatui\.com\/v5\/users\/3g-get-info
-^https?://graph.nhaccuatui.com/v5/logs/*
-^https://graph.nhaccuatui.com/v5/commons/notify-firebase
-^https://graph.nhaccuatui.com/v5/users/3g-info
-^https://graph.nhaccuatui.com/v5/adv
+^http:\/\/graph\.nhaccuatui\.com\/.+\/users\/3g-get-info
+^https?://graph.nhaccuatui.com/.+/logs/*
+^https://graph.nhaccuatui.com/.+/commons/notify-firebase
+^https://graph.nhaccuatui.com/.+/users/3g-info
+^https://graph.nhaccuatui.com/.+/adv
 ^https?://avatar-nct.nixcdn.com/.+popup
 ^https?://graph.nhaccuatui.com/.+deviceinfo
 
