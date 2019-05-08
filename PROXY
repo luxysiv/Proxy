@@ -1,0 +1,15 @@
+[General]
+loglevel = notify
+
+[Proxy]
+Singapore = https, 209.97.163.224, 3128, username=manhduonghn@live.com, password=manhduong1@
+Germany = https, 207.154.248.27, 3128, username=manhduonghn@live.com, password=manhduong1@
+HongKong = https, 203.23.128.91, 3128, username=manhduonghn@live.com, password=manhduong1@
+Japan = https, 103.75.118.93, 3128, username=manhduonghn@live.com, password=manhduong1@
+Netherlands = https, 188.166.125.173, 3128, username=manhduonghn@live.com, password=manhduong1@
+L.A = https, 98.143.148.72, 3128, username=manhduonghn@live.com, password=manhduong1@
+Miami = https, 155.94.222.48, 3128, username=manhduonghn@live.com, password=manhduong1@
+Canada = https, 68.183.192.215, 3128, username=manhduonghn@live.com, password=manhduong1@
+
+[Rule]
+FINAL,DIRECT
