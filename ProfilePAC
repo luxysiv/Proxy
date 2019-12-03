@@ -4,7 +4,7 @@
 <dict>
 	<key>PayloadContent</key>
 	<array>
-		<odict>
+		<dict>
 			<key>PayloadDescription</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
@@ -22,27 +22,13 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string> https://raw.githubusercontent.com/luxysiv/Proxy/master/PAC.js </string>
+			<string>PUT YOUR WEBLOCK URL HERE</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
-		<dict>
-			<key>LockScreenFootnote</key>
-			<string>This iPhone is mine</string>
-			<key>PayloadDisplayName</key>
-			<string>Lock Screen Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>com.serverdbs.lockscreentext</string>
-			<key>PayloadType</key>
-			<string>com.apple.shareddeviceconfiguration</string>
-			<key>PayloadUUID</key>
-			<string>E88A0C76-DAC7-11E8-9F8B-F2801F1B9FD1</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Proxy's PAC(Ngày hiện tại)</string>
+	<string>myrestrictions</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -53,40 +39,5 @@
 	<string>05310982-9E13-4A65-B5E9-9B523B2D2DE7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-  <key>SignerCerts</key>
-	<array>
-		<data>
-MIIFPDCCBCSgAwIBAgIGAWrvI3QCMA0GCSqGSIb3DQEBCwUAMIGiMTMwMQYDVQQDDCpDaGFybGVz
-IFByb3h5IENBICgyNSBNYXkgMjAxOSwgVGlueUNhcnJvdCkxJTAjBgNVBAsMHGh0dHBzOi8vY2hh
-cmxlc3Byb3h5LmNvbS9zc2wxETAPBgNVBAoMCFhLNzIgTHRkMREwDwYDVQQHDAhBdWNrbGFuZDER
-MA8GA1UECAwIQXVja2xhbmQxCzAJBgNVBAYTAk5aMB4XDTAwMDEwMTAwMDAwMFoXDTQ4MDcyMTEz
-MTcxOVowgaIxMzAxBgNVBAMMKkNoYXJsZXMgUHJveHkgQ0EgKDI1IE1heSAyMDE5LCBUaW55Q2Fy
-cm90KTElMCMGA1UECwwcaHR0cHM6Ly9jaGFybGVzcHJveHkuY29tL3NzbDERMA8GA1UECgwIWEs3
-MiBMdGQxETAPBgNVBAcMCEF1Y2tsYW5kMREwDwYDVQQIDAhBdWNrbGFuZDELMAkGA1UEBhMCTlow
-ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCDnLK2MCY2/mkdP8mR3Fcb04NWuMQqJvfH
-Nbe+3uTNXvjvOp8t3LmKVrzk9YFUs6edob52bF/+Qe4fD8SIcFs/5miuPZ2h2bfE5MlEQEEGf/Ay
-l0y9pRlxl4u6JdOEZMVYoTmYtM33UU+D+aVYGgbFwcPMSet5QgUMVB3w6rjRGIFodIaBXZJLJP1g
-kEUmTqhyV+FelEYPpCngrkQV2YBAo0AsKoraw94I2sHJ7fokV2/T9tjGNom8UaPrZinDaMLZ6zdb
-m0MZ19wQKIQYeaEzO2uIBzOHi0UAGXWU9iAiatmx3yyQdUbhgUCbVaVYGNopCyMebOpgm+8o8pXs
-40iPAgMBAAGjggF0MIIBcDAPBgNVHRMBAf8EBTADAQH/MIIBLAYJYIZIAYb4QgENBIIBHROCARlU
-aGlzIFJvb3QgY2VydGlmaWNhdGUgd2FzIGdlbmVyYXRlZCBieSBDaGFybGVzIFByb3h5IGZvciBT
-U0wgUHJveHlpbmcuIElmIHRoaXMgY2VydGlmaWNhdGUgaXMgcGFydCBvZiBhIGNlcnRpZmljYXRl
-IGNoYWluLCB0aGlzIG1lYW5zIHRoYXQgeW91J3JlIGJyb3dzaW5nIHRocm91Z2ggQ2hhcmxlcyBQ
-cm94eSB3aXRoIFNTTCBQcm94eWluZyBlbmFibGVkIGZvciB0aGlzIHdlYnNpdGUuIFBsZWFzZSBz
-ZWUgaHR0cDovL2NoYXJsZXNwcm94eS5jb20vc3NsIGZvciBtb3JlIGluZm9ybWF0aW9uLjAOBgNV
-HQ8BAf8EBAMCAgQwHQYDVR0OBBYEFI/wKyVsjSDYrL3nxvrq07VpFYYCMA0GCSqGSIb3DQEBCwUA
-A4IBAQAYzj61JXrrKhwJLirU8PZT+XSL4NMtgeeJGaW3lt6iZrcOkyEkj4cH/jazV8uTFWuVNHcU
-bLLu9XdfoKoz4CMmhwGTBeVDZJSqcsQezI/6EooSLvH6MeDRS9J9R28yds7JwXdNkkOb6GybFJEZ
-9o2pSfmeaj+XGpkUj08pn3nZbLz1wYpr1UH+pAbKt8BtqAYshbHJlpHznz7oUYMutm7VUaUwRZnf
-jzTsx6qogcJeoIMoAVZbac3PZ295XjTi3Kt0FRnNCmG0VeGwiWImTafYmKYtdu/uaO1YJgtHMQZg
-I4gJqCWg2YBawkIjBGTS2nV/FooZXsasc5hM3ssIm7Xx
-		</data>
-		<data>
-                MIIEGDCCAwCgAwIBAgIIBLn7ZZFKmGkwDQYJKoZIhvcNAQELBQAwYjELMAkG 		A1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxl 		IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290 		IENBMB4XDTEzMDUyNDE3NDMzN1oXDTI4MDUyNDE3NDMzN1owgYwxQDA+BgNV 		BAMMN0FwcGxlIEFwcGxpY2F0aW9uIEludGVncmF0aW9uIDIgQ2VydGlmaWNh 		dGlvbiBBdXRob3JpdHkxJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24g 		QXV0aG9yaXR5MRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJVUzCC 		ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALhIoWdsVgid5XDFRvSv 		heO9Ot6h59moNjwZYqV8FaBHs2uBGxCs/th05g41sFhPdNij/u0t7qRzJVnU 		ltwmz50ni1Sc3JKx4DMSGGKZyLmvNhikaoGRpxVt3d0PLcwFgR19EMwpiaPJ 		DJmqouzZAWdpBwI8F79EKCSxxCw11rECAAgl71CnB9slxsNPb1uHvirxk6fU 		bF6yOS4EqeFtHDuuOXE/BPO59FedIwBPmYNen/AMAVi+tdHs17J+wmXi8ew8 		pvxu21az7goGsgtLyaLw8TH2rt41bMOAXlBjkLa6bVzA458mg0od3pupsFpv 		+5trgezd3zLe/C5Cosp4WtcCAwEAAaOBpjCBozAdBgNVHQ4EFgQU9758IWCR 		2z0be9g6MoFp355sf5swDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBQr 		0GlHlHYJ/vRrjS5ApvdHTX8IXjAuBgNVHR8EJzAlMCOgIaAfhh1odHRwOi8v 		Y3JsLmFwcGxlLmNvbS9yb290LmNybDAOBgNVHQ8BAf8EBAMCAQYwEAYKKoZI 		hvdjZAYCAwQCBQAwDQYJKoZIhvcNAQELBQADggEBAJXNjf2kXfXxwIdJh92z 		M5OthBLQIZPj2dbarwkigmANPFlC8S0Bk7Y///Qq9O4VanjBLvs7TBCuZUPL 		z6gO6z03kEUvCEqNqIhrGRcR4prb72e4B/Hk2IYLcXfT84ngr6TqKAWkPzR5 		ZTaDVBJBcdcdEiHcUFVFzo6899xV0LPKKFGsc1EHrHl/i26SoDcJYTEvodG6 		6+FcN8DY0RsM5+AQUkKklH+L9mAiYHygwD/BlYXVwidjsGJWme0l9MyImZnc 		VBwXBQG3eeiBhThAwrkI7U1i1Cv2KQbxZ6HhHQWNcgx3DvaglCtRiBKEU/Lz 		kgkIhPPov6ETJs/8F5I3u0A=
-		</data>
-<data>
-
-</data>
-	</array>
 </dict>
 </plist>
