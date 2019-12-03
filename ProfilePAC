@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>PUT YOUR WEBLOCK URL HERE</string>
+			<string>https://raw.githubusercontent.com/luxysiv/Proxy/master/PAC.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
