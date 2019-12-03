@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://www.dropbox.com/s/4pm91dw6cnclo12/Pacdebug.js?dl=1</string>
+			<string> https://raw.githubusercontent.com/luxysiv/Proxy/master/PAC.js </string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
