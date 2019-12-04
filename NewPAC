@@ -8,10 +8,10 @@
   var ALLOW = "DIRECT";
 
   // var ALLOW = "PROXY proxy:8080";
-  var pxyCLEAR = "PROXY a0.speedmeup.net:80";
-  var pxySSL   = "PROXY a0.speedmeup.net:443";
-  // var pxyCLEAR = "PROXY ipad.speedmeup.net:80";
-  // var pxySSL   = "PROXY ipad.speedmeup.net:443";
+  var pxyCLEAR = "PROXY localhost:80";
+  var pxySSL   = "PROXY localhost:443";
+  // var pxyCLEAR = "PROXY localhost:80";
+  // var pxySSL   = "PROXY localhost:443";
 
   var DENY = pxyCLEAR ;
 
@@ -23,6 +23,8 @@
   var wl_last = 0 ;  
 
 var host_regexps = [
+/\.ad-brix\.com/,
+/\.adtimaserver\.vn/,
 /\.crwdcntrl\.net/,
 /\.adsrvr\.org/,
 /\.tapad\.com/,
