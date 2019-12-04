@@ -167,5 +167,4 @@ var bad_da_host_JSON = { "pagead2.googlesyndication.com": null,
 "zalo-ads.zadn.vn ": null,
 "event.rubyfish.app ": null,
 "stc.za.zaloapp.com ": null,
-"d.adsplay.net ": null, };
-var bad_da_host_exact_flag = 2050 > 0 ? true : false;
+"d.adsplay.net ": null, }; var bad_da_host_exact_flag = 2050 > 0 ? true : false;
