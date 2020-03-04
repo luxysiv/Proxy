@@ -4,7 +4,7 @@ var blacklist = {"ocsp.apple.com":1,"mesu.apple.com":1,"updates-http.cdn-apple.c
 "googletagmanager.com":1,"googletagservices.com":1,"gop1.co":1,"inmobi.com":1,"jp.zaloapp.com":1,"leadloss.com":1,"log*zalo*":1,"log*zing*":1,"log.baomoi.com":1,"log.sdk.zadn.vn":1,"log4x.nixcdn.com":1,"lsosad.com":1,"midasplayer.com":1,"moatads*":1,"mopub.com":1,"pagead*":1,"polyad*":1,"polyfill.io":1,"pubnative.net":1,"qos-talk.123c.vn":1,"rayjump.com":1,"rubiconproject.com":1,"servicelayer.king.com":1,"serving-sys.com":1,"shifen.com":1,"shop*zalo*":1,"sp.zalo.me":1,"startappservice.com":1,"store*.zdn.vn":1,"store*zalo":1,"supersonicads*":1,"tapjoy*":1,"tracker-api.my.com":1,"tvnotice.kg.garena.vn":1,"umeng*":1,"unityads*":1,"vungle*";1,"wagbridge.alibaba.tanx.com":1,"wshifen.com":1,"www.cisco247.net":1,"www.fqtag.com":1,"zplayer.trk.zapps.vn":1};
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
-  for (i = 0; i < 30; i++) {
+  for (i = 0; i < 300; i++) {
     if (blacklist[host]) {
       return PROXY;
     }
