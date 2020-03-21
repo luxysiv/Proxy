@@ -1,35 +1,3 @@
-// PAC (Proxy Auto Configuration) Filter from EasyList rules
-// 
-// Copyright (C) 2017 by Steven T. Smith <steve dot t dot smith at gmail dot com>, GPL
-// https://github.com/essandess/easylist-pac-privoxy/
-//
-// PAC file created on Tue, 05 Feb 2019 00:44:46 GMT
-// Created with command: easylist_pac.py
-//
-// http://www.gnu.org/licenses/lgpl.txt
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-// 
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-// If you normally use a proxy, replace "DIRECT" below with
-// "PROXY MACHINE:PORT"
-// where MACHINE is the IP address or host name of your proxy
-// server and PORT is the port number of your proxy server.
-//
-// Influenced in part by code from King of the PAC from http://securemecca.com/pac.html
-
-// Define the blackhole proxy for blocked adware and trackware
-
 var normal = "DIRECT";
 var proxy = "DIRECT";                  // e.g. 127.0.0.1:3128
 // var blackhole_ip_port = "127.0.0.1:8119";  // ngnix-hosted blackhole
@@ -37,62 +5,7 @@ var proxy = "DIRECT";                  // e.g. 127.0.0.1:3128
 var blackhole_ip_port = "127.0.0.1:8119";    // on iOS a working blackhole requires return code 200;
 // e.g. use the adblock2privoxy nginx server as a blackhole
 var blackhole = "PROXY " + blackhole_ip_port;
-
-// The hostnames must be consistent with EasyList format.
-// These special RegExp characters will be escaped below: [.?+@]
-// This EasyList wildcard will be transformed to an efficient RegExp: *
-// 
-// EasyList format references:
-// https://adblockplus.org/filters
-// https://adblockplus.org/filter-cheatsheet
-
-// Create object hashes or compile efficient NFA's from all filters
-// Various alternate filtering and regex approaches were timed using node and at jsperf.com
-
-// Too many rules (>~ 10k) bog down the browser; make reasonable exclusions here:
-
-// EasyList rules:
-// https://adblockplus.org/filters
-// https://adblockplus.org/filter-cheatsheet
-// https://opnsrce.github.io/javascript-performance-tip-precompile-your-regular-expressions
-// https://adblockplus.org/blog/investigating-filter-matching-algorithms
-// 
-// Strategies to convert EasyList rules to Javascript tests:
-// 
-// In general:
-// 1. Preference for performance over 1:1 EasyList functionality
-// 2. Limit number of rules to ~O(10k) to avoid computational burden on mobile devices
-// 3. Exact matches: use Object hashing (very fast); use efficient NFA RegExp's for all else
-// 4. Divide and conquer specific cases to avoid large RegExp's
-// 5. Based on testing code performance on an iPhone: mobile Safari, Chrome with System Activity Monitor.app
-// 6. Backstop these proxy.pac rules with Privoxy rules and a browser plugin
-// 
-// scheme://host/path?query ; FindProxyForURL(url, host) has full url and host strings
-// 
-// EasyList rules:
-// 
-// || domain anchor
-// 
-// ||host is exact e.g. ||a.b^ ? then hasOwnProperty(hash,host)
-// ||host is wildcard e.g. ||a.* ? then RegExp.test(host)
-// 
-// ||host/path is exact e.g. ||a.b/c? ? then hasOwnProperty(hash,url_path_noquery) [strip ?'s]
-// ||host/path is wildcard e.g. ||a.*/c? ? then RegExp.test(url_path_noquery) [strip ?'s]
-// 
-// ||host/path?query is exact e.g. ||a.b/c?d= ? assume none [handle small number within RegExp's]
-// ||host/path?query is wildcard e.g. ||a.*/c?d= ? then RegExp.test(url)
-// 
-// url parts e.g. a.b^c&d|
-// 
-// All cases RegExp.test(url)
-// Except: |http://a.b. Treat these as domain anchors after stripping the scheme
-// 
-// regex e.g. /r/
-// 
-// All cases RegExp.test(url)
-// 
-// @@ exceptions
-// 
+ 
 // Flag as "good" versus "bad" default
 // 
 // Variable name conventions (example that defines the rule):
