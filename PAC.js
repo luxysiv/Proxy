@@ -25,6 +25,9 @@
 var host_regexps = [
 /ocsp\.apple\.com/,
 /mesu\.apple\.com/,
+/xp\.apple\.com/,
+/ocsp\.apple\.com$/,
+/gdmf\.apple\.com/,
 /\.crwdcntrl\.net/,
 /\.adsrvr\.org/,
 /\.tapad\.com/,
