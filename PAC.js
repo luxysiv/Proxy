@@ -1,35 +1,3 @@
-// PAC (Proxy Auto Configuration) Filter from EasyList rules
-// 
-// Copyright (C) 2017 by Steven T. Smith <steve dot t dot smith at gmail dot com>, GPL
-// https://github.com/essandess/easylist-pac-privoxy/
-//
-// PAC file created on Tue, 05 Feb 2019 00:44:46 GMT
-// Created with command: easylist_pac.py
-//
-// http://www.gnu.org/licenses/lgpl.txt
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-// 
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-// If you normally use a proxy, replace "DIRECT" below with
-// "PROXY MACHINE:PORT"
-// where MACHINE is the IP address or host name of your proxy
-// server and PORT is the port number of your proxy server.
-//
-// Influenced in part by code from King of the PAC from http://securemecca.com/pac.html
-
-// Define the blackhole proxy for blocked adware and trackware
-
 var normal = "DIRECT";
 var proxy = "DIRECT";                  // e.g. 127.0.0.1:3128
 // var blackhole_ip_port = "127.0.0.1:8119";  // ngnix-hosted blackhole
@@ -232,10 +200,11 @@ var good_da_host_exceptions_JSON = { "iad.apple.com": null,
 "www.bingads.microsoft.com": null };
 var good_da_host_exceptions_exact_flag = 39 > 0 ? true : false;  // test for non-zero number of rules
 
-// 2050 rules:
+// 2051 rules:
 var bad_da_host_JSON = { "jobthread.com": null,
 "content.ad": null,
 "webvisor.ru": null,
+"ocsp.apple.com":null,
 "nastydollars.com": null,
 "adziff.com": null,
 "ad.doubleclick.net": null,
@@ -2283,7 +2252,7 @@ var bad_da_host_JSON = { "jobthread.com": null,
 "ios-quinoa-high-frequency-events-prod.sense360eng.com": null,
 "v1.blueberry.cloud.databerries.com": null,
 "outbrain.com": null };
-var bad_da_host_exact_flag = 2050 > 0 ? true : false;  // test for non-zero number of rules
+var bad_da_host_exact_flag = 2051 > 0 ? true : false;  // test for non-zero number of rules
     
 // 9 rules as an efficient NFA RegExp:
 var bad_da_host_RegExp = /^(?:[\w-]+\.)*?(?:tracker(?=([\s\S]*?\.richcasino\.com))\1|imgadult\.com(?=([\s\S]*?))\2|imgtaxi\.com(?=([\s\S]*?))\3|imgwallet\.com(?=([\s\S]*?))\4|images\.(?=([\s\S]*?\.criteo\.net))\5|analytics\-beacon\-(?=([\s\S]*?\.amazonaws\.com))\6|imgdrive\.net(?=([\s\S]*?))\7|rcm(?=([\s\S]*?\.amazon\.))\8|stats\-(?=([\s\S]*?\.p2pnow\.ru))\9)/i;
