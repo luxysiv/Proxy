@@ -34,6 +34,7 @@ var good_da_host_exceptions_exact_flag = 0 > 0 ? true : false;  // test for non-
 // rules:
 var bad_da_host_JSON = { "nastydollars.com": null,
 "appbaqend.com":null,
+"applovin.com":null,
 "criteo com":null,
 "adservice.google.com":null,
 "content.ad": null,
