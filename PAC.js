@@ -34,6 +34,8 @@ var good_da_host_exceptions_exact_flag = 0 > 0 ? true : false;  // test for non-
 // rules:
 var bad_da_host_JSON = { "nastydollars.com": null,
 "adtima-media.zadn.vn":null,
+"startappservice.com":null,
+"cf.iadsdk.apple.com":null,
 "appsflyer.com":null,
 "tapjoy.com":null,
 "log.sdk.zadn.vn":null,
