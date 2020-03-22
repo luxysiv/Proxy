@@ -31,8 +31,11 @@ var good_da_regex_flag = 0 > 0 ? true : false;  // test for non-zero number of r
 var good_da_host_exceptions_JSON = {  };
 var good_da_host_exceptions_exact_flag = 0 > 0 ? true : false;  // test for non-zero number of rules
 
-// 3999 rules:
+// rules:
 var bad_da_host_JSON = { "nastydollars.com": null,
+"appbaqend.com":null,
+"criteo com":null,
+"adservice.google.com":null,
 "content.ad": null,
 "ocsp.apple.com":null,
 "mesu.apple.com":null,
