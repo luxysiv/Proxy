@@ -1,34 +1,4 @@
-// PAC (Proxy Auto Configuration) Filter from EasyList rules
-// 
-// Copyright (C) 2017 by Steven T. Smith <steve dot t dot smith at gmail dot com>, GPL
-// https://github.com/essandess/easylist-pac-privoxy/
-//
-// PAC file created on Tue, 24 Jul 2018 10:18:15 GMT
-// Created with command: adblock_pac_creator2.py -@@ -rb -1 -d ./
-//
-// http://www.gnu.org/licenses/lgpl.txt
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-// 
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-// If you normally use a proxy, replace "DIRECT" below with
-// "PROXY MACHINE:PORT"
-// where MACHINE is the IP address or host name of your proxy
-// server and PORT is the port number of your proxy server.
-//
-// Influenced in part by code from King of the PAC from http://securemecca.com/pac.html
-
-// Define the blackhole proxy for blocked adware and trackware
 
 var normal = "DIRECT";
 var proxy = "DIRECT";                  // e.g. 127.0.0.1:3128
