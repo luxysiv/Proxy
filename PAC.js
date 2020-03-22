@@ -34,7 +34,7 @@ var good_da_host_exceptions_exact_flag = 0 > 0 ? true : false;  // test for non-
 // rules:
 var bad_da_host_JSON = { "nastydollars.com": null,
 "adtima-media.zadn.vn":null,
-"ng-vn-notice.gameitop.com":null
+"ng-vn-notice.gameitop.com":null,
 "unityads.unity3d.com":null,
 "tvnotice.kg.garena.vn":null,
 "zalo-ads,zadn.vn":null,
