@@ -1,4 +1,5 @@
 var domains = {
+    "updates-http.cdn-apple.com":1
     "xp.apple.com":1,
     "ocsp.apple.com":1,
     "gdmf.apple.com":1,
