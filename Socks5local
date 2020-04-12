@@ -1,4 +1,5 @@
 var domains = {
+    "xp.apple.com":1,
     "ocsp.apple.com":1,
     "gdmf.apple.com":1,
     "mesu.apple.com":1,
