@@ -50,11 +50,11 @@
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
 	<key>PayloadOrganization</key>
-	<string>Mạnh Dương</string>
+	<string>ManhDuong</string>
 	<key>PayloadRebootSuggested</key>
 	<true/>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
