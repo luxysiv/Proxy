@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.proxy.http.global.6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+			<key>PayloadUUID</key>
+			<string>6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyCaptiveLoginAllowed</key>
+			<false/>
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+			<key>ProxyPACURL</key>
+			<string>https://www.dropbox.com/s/vd7gac0grkagjn1/PAC.js?dl=1</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+		<dict>
+			<key>LockScreenFootnote</key>
+			<string>Mạnh's device 😍</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.timie.lockscreen</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			<key>PayloadUUID</key>
+			<string>E88A0C76-DAC7-11E8-9F8B-F2801F1B9FD1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>- Chặn cập nhật quảng cáo cá nhân.
+- Chặn thu hồi chứng chỉ.
+	</string>
+	<key>PayloadDisplayName</key>
+	<string>PACprofile</string>
+	<key>PayloadIdentifier</key>
+	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
+	<key>PayloadOrganization</key>
+	<string>Mạnh Dương</string>
+	<key>PayloadRebootSuggested</key>
+	<true/>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>05310982-9E13-4A65-B5E9-9B523B2D2DE7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>"You are configuring to block ads and certificate revocation</string>
+		<key>vi</key>
+		<string>"Bạn đang cài đặt cấu hình chặn quảng cáo và thu hồi chứng chỉ</string>
+	</dict>
+	<key>RemovalDate</key>
+	<date>2222-01-01T00:00:00Z</date>
+</dict>
+</plist>
