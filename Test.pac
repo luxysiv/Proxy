@@ -1,9 +1,9 @@
 function FindProxyForURL(url, host){
 var P="PROXY ";
-var PROXY_DIRECT="PROXY localhost:35010";
+var PROXY_DIRECT="PROXY 127.0.0.1:8080";
 var u=url.toLowerCase();
 var h=host.toLowerCase();
-var BLACK="PROXY localhost:8080";
+var BLACK="PROXY 127.0.0.1:8080";
 var WHITE=PROXY_DIRECT;
 var r;
 
