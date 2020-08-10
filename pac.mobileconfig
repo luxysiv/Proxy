@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://www.dropbox.com/s/vd7gac0grkagjn1/PAC.js?dl=1</string>
+			<string>https://timie.imfast.io/weblockpac.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
